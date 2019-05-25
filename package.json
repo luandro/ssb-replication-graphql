@@ -1,6 +1,6 @@
 {
   "name": "ssb-replication-graphql",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Secure Scuttlebot replication types for Open App GraphQL Server",
   "main": "index.js",
   "scripts": {
