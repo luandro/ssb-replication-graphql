@@ -4,7 +4,7 @@ module.exports = {
   replication: {
     subscribe: (parent, args, { pubsub, sbot }) => {
       const channel = 'replication'
-      return pull(
+      pull(
         sbot.replicate.changes(),
         pull.drain(replication => pubsub.publish(channel, { replication }))
       )
